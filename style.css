@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 10px;
+}
+header{
+    background-color: #ca602a ;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    padding-left: 900px;
+    gap: 60px;
+}
+.mymusic{
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-outS;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+.Home{
+    background-image: url("images/imagehome.jpg");
+    height: 100vh;
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(215, 52, 79);
+    
+    
+
+    
+}
+.Home .container{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Home h1{
+    font-size: 96px;
+}
+.Home h3{
+    font-size: 30px;
+}
+.Home p{
+    font-size: 20px;
+}
+.Music{
+    padding-top: 50px;
+    background-color:  #FFC47E;
+}
+.Music .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 5%;
+    padding-left: 15%;
+
+}
+.iphone{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+    
+}
+.button{
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+
+}
+button :hover{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8s;
+}
+.button{
+    background-color: rgb(200, 23, 23);
+    color: white;
+}
+.secbutton{
+    background-color: rgb(12, 12, 180);
+    color: white;
+}
+.Explore{
+    padding-top: 500px;
+
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Explore h3{
+    margin-bottom: 20px;
+}
+.Explore h4{
+    margin-bottom: 30px;
+}
+.Explore button{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+.Video{
+    background-image: url(images/image3.jpg);
+    height: 800px;
+    display: grid;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   
+}
+.Video h3{
+    margin-bottom: 20px;
+
+
+}
+.Video .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+    padding-left: 15%;
+
+   
+
+}
+ .videoproject{
+    
+   
+    margin-left: 100px;
+}
+.Subscription{
+    display: flex;
+    justify-content: center;
+    margin: 100px 100px;
+    gap: 50px;
+}
+.subscribe{
+
+    gap: 20px;
+}
+.Subscription .secbutton{
+    padding: 10px 10px 10px 10px;
+    border: none;
+    margin-bottom: 50px;
+}
+.footerupper{
+    background-color: rgb(18, 18, 183);
+    padding: 20px;
+}
+.footerupper .container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footerupper h4{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white ;
+    margin-bottom: 10px;
+}
+.footer-lower{
+    background-color: rgb(11, 11, 163);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
